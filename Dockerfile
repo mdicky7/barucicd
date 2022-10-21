@@ -1,7 +1,7 @@
-FROM ubuntu:18.04
+FROM nginx:latest
 
 USER root
-WORKDIR /home/newuser
+
 RUN apt update && apt upgrade -y
 
-EXPOSE 8000
+EXPOSE 90
