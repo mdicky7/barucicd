@@ -4,4 +4,4 @@ USER root
 
 RUN apt update && apt upgrade -y
 
-EXPOSE 90
+EXPOSE 7000
