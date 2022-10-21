@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-USER newuser
+USER root
 WORKDIR /home/newuser
 RUN apt update && apt upgrade -y
 
